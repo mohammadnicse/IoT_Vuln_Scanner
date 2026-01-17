@@ -1,0 +1,1476 @@
+[
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.66...",
+        "file": "_target.bin.extracted/3A10"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.86...",
+        "file": "_target.bin.extracted/3A10"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.1...",
+        "file": "_target.bin.extracted/3A10"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.10...",
+        "file": "_target.bin.extracted/3A10"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wlanconfig"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/pktlogdump"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/pktlogdump"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/sbin/pktlogdump"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/tc"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/sbin/tc"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/tc"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/sbin/tc"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "224.0.1.178...",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "239.255.255.250...",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "239.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/sbin/hostapd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wpa_supplicant"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wpa_supplicant"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wpa_supplicant"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wpa_supplicant"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/sbin/apstats"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/iptables-multi"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/sbin/iptables-multi"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/sbin/iptables-multi"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/sbin/iptables-multi"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/pktlogconf"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/pktlogconf"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/sbin/pktlogconf"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/iwconfig"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wifitool"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wifitool"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/sbin/wifitool"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/arp"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/arp"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/arp"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/pppd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/pppd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/pppd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/pppd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/xl2tpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/xl2tpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/xl2tpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/xl2tpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/xl2tpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/bpalogin"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/bpalogin"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/bpalogin"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/bpalogin"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/dropbearmulti"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/dropbearmulti"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/dropbearmulti"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/dropbearmulti"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/dropbearmulti"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "127.0.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/sbin/dropbearmulti"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "218.29.0.227...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "127.0.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "1.0.0.19...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "127.0.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "9.1.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.222...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "10.0.0.222...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "10.0.0.138...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "10.0.0.2...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "10.0.0.212...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.222...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.10.222...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.10.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "1.0.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "256.256.256.256...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "239.255.255.250...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "239.255.255.250...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "224.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "133.100.9.2...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "139.78.100.163...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "131.107.1.10...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "199.165.76.11...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "140.142.16.34...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "128.138.140.44...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "137.146.210.250...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.36.144.22...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "129.7.1.66...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.43.244.18...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "158.121.104.4...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.6.38.127...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "216.133.140.77...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "140.221.8.88...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "66.243.43.2...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.100...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.199...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.1...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.254...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.3.199...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/httpd"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/lld2d"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/lld2d"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/usr/bin/lld2d"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libip6tc.so.0.0.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libip6tc.so.0.0.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libuClibc-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/lib/libuClibc-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libuClibc-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/libuClibc-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libuClibc-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libgcc_s.so.1"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libwpa_common.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libwpa_common.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/libwpa_common.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libmsglog.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libip4tc.so.0.0.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libip4tc.so.0.0.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/libpthread-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libpthread-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libutil-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libm-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libiw.so.29"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libiw.so.29"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libiw.so.29"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libcrypt-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/lib/libcrypt-0.9.30.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libxtables.so.2.1.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/lib/libxtables.so.2.1.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libxtables.so.2.1.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libxtables.so.2.1.0"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/lib/libxtables.so.2.1.0"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_comment.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libipt_SET.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_multiport.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_udp.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_conntrack.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_conntrack.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libipt_set.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libipt_wlanwarn.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libipt_CLUSTERIP.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_tcp.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libxt_MARK.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/lib/libexec/xtables/libipt_icmp.so"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/net/ath_hal.ko"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.9.17.1...",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/net/ath_hal.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/net/umac.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/net/umac.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/net/umac.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/net/umac.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_nat_ftp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_conntrack_sip.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/xt_TCPMSS.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_nat_sip.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_conntrack_rtsp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/xt_MARK.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_conntrack_h323.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/pptp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_nat_rtsp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/pppol2tp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/pppol2tp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/xt_CONNMARK.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/xt_CONNMARK.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/xt_connmark.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_conntrack_tftp.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/x_tables.ko"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/lib/modules/2.6.31/kernel/nf_conntrack_ftp.ko"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/NetworkCfgHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.1...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/WanDynamicIpCfgHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/WanDynamicIpCfgHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/RestoreDefaultCfgHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/StatusHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/WzdStaticIpHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/ManageControlHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/ManageControlHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/ManageControlHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "202.96.12.8...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/ManageControlHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "202.96.12.8...",
+        "file": "_target.bin.extracted/squashfs-root/web/help/ManageControlHelpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "HARDCODED_PASSWORD",
+        "match": "Empty PSK password, ...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WzdWlanRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.1...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/NetworkCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WzdStaticIpRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WanStaticIpCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WanStaticIpCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WanStaticIpCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/ManageControlRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/ManageControlRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "222.88.88.234...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/ManageControlRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/ManageControlRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "HARDCODED_PASSWORD",
+        "match": "Radius password must...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WlanSecurityRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "HARDCODED_PASSWORD",
+        "match": "Empty Wireless passw...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WlanSecurityRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/StatusRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/StatusRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/StatusRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/DateTimeCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/DateTimeCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/DateTimeCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/DateTimeCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/DMZRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/WanDynamicIpCfgRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/LanDhcpServerRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/LanDhcpServerRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/LanDhcpServerRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.255...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/LanArpBindingAdvRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/userRpm/LanArpBindingAdvRpm.htm"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/common.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/common.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "HARDCODED_PASSWORD",
+        "match": "admin...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/custom.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/custom.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.23...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/custom.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.23...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/custom.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.100...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/custom.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.0.199...",
+        "file": "_target.bin.extracted/squashfs-root/web/dynaform/custom.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/localiztion/str_err.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "255.255.255.0...",
+        "file": "_target.bin.extracted/squashfs-root/web/localiztion/str_err.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "202.96.134.188...",
+        "file": "_target.bin.extracted/squashfs-root/web/localiztion/str_err.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "202.96.134.188...",
+        "file": "_target.bin.extracted/squashfs-root/web/localiztion/str_err.js"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "61.145.238.5...",
+        "file": "_target.bin.extracted/squashfs-root/web/localiztion/str_err.js"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcpy",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "strcat",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "sprintf",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "system",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Insecure Function",
+        "match": "gets",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.100...",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "192.168.1.199...",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "0.0.0.0...",
+        "file": "_target.bin.extracted/squashfs-root/bin/busybox"
+    },
+    {
+        "type": "Potential Secret",
+        "description": "IP_ADDRESS",
+        "match": "127.0.0.1...",
+        "file": "_target.bin.extracted/squashfs-root/etc/rc.d/rcS"
+    }
+]
